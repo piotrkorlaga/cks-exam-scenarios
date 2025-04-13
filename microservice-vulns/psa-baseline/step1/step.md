@@ -36,7 +36,7 @@ spec:
   - name: test
     image: nginx
     securityContext:
-      runAsNonRoot: false
+      privileged: true
 EOF
 ```{{EXEC}}
 
